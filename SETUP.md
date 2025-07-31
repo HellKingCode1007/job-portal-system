@@ -6,17 +6,17 @@ Create a `.env` file in the root directory with the following content:
 
 ```env
 # Required Environment Variables
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/job-portal?retryWrites=true&w=majority
-JWT_SECRET=your-super-secret-jwt-key-here-make-it-long-and-random
+MONGODB_URI=your_mongodb_uri_here
+JWT_SECRET=your_jwt_secret_here
 
-# Optional Environment Variables (for advanced features)
+# Optional Environment Variables
 LINKEDIN_CLIENT_ID=your_linkedin_client_id
 LINKEDIN_CLIENT_SECRET=your_linkedin_client_secret
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_email_app_password
+EMAIL_USER=your_email_here
+EMAIL_PASS=your_email_app_password_here
 ```
 
 ## Step 2: Get MongoDB Atlas Connection String
